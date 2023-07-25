@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <header>
+        <div class="logo">
+            <img src="/header.jpg" alt="">
+        </div>
+        <div class="nav">
+            <a href="">home</a>
+            <a href="">classes</a>
+            <a href="">catering</a>
+            <a href="">about</a>
+            <a href="">contact</a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="article">
+            <figure>
+                <img src="/bok-choi.jpg" alt="">
+                <figcaption>
+                    bok-choi
+                </figcaption>
+                <hgroup>
+                    <h2>Jepanese Vegetarian</h2>
+                <h3>Five week course in London</h3></hgroup>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat ab maiores illum autem esse dolore natus numquam odit?</p>
+
+            </figure>
+        </div>
+        <div class="article">
+            <figure>
+                <img src="/teriyaki.jpg" alt="">
+                <figcaption>
+                    teriyaki</figcaption>
+                    <hgroup>
+                        <h2>Sauces Masterclass</h2>
+                        <h3>One day workshop</h3>
+                    </hgroup>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reprehenderit, doloribus maiores excepturi exercitationem inventore? Libero?
+
+                    </p>
+                
+            </figure>
+        </div>
+    </div>
+    <aside>
+        <div class="section">
+            <h2>Popular Recipes</h2>
+            <a href="">Yakitori(grilled chicken)</a>
+            <a href="">Tsukane(minced chicken patties)</a>
+            <a href="">Okonomiyaki(savory pancakes)</a>
+            <a href="">Mizutaki(chicken stew)</a>
+        </div>
+        <div class="contact">
+            <hgroup>Contact</hgroup>
+            <p>
+                Yoko's Kitchen <br>
+                27 Redchurch Street <br>
+                shoreditch <br>
+                London
+            </p>
+        </div>
+    </aside>
+</div>
+</body>
+</html>

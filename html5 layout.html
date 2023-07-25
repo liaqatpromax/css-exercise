@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(/dark-wood.jpg);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .main{
+            width: 940px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(7, 7, 7);
+            margin-top: 25px;
+            height: 700px;
+        }
+        .logo{
+            width: 900px;
+        }
+        .nav{
+            background-color: rgb(180, 180, 180);
+                clear: both;
+                height: 30px;
+                position: absolute;
+                top: 157px;
+                color: white;
+                width:940px;
+
+        }
+        ul{
+            /* border: 2px solid blue; */
+            height: 40px;
+            clear: both;
+            position: relative;
+            /* top: 14px; */
+            bottom: 11px;
+
+        }
+        li{
+            /* border: 2px solid purple; */
+            display: inline;
+            padding: 10px;
+            padding-right:36px;
+        }
+        header{
+            /* border: 2px solid yellow; */
+            
+        }
+        .nav a{
+            color: white;
+            font-size: 18px;
+        }
+        .nav a:hover{
+            color: black;
+        }
+         .nav a:active{
+            color: black;
+         }
+        
+        
+        a{text-decoration: none;}
+        .content{
+            width: 635px;
+            /* border: 2px solid chocolate; */
+            height: 500px;
+            border-right: 1px solid rgb(228, 228, 228);
+        }
+        .article{
+            
+                /* display: block; */
+                width: 600px;
+                /* border: 2px solid olive; */
+                padding: 25px 0px 10px 10px;
+                /* float: left; */
+                height: 200px;
+                margin-left: 1px;
+                
+                
+        }
+        figure{
+            /* display: block; */
+            border: 1px solid rgb(240, 240, 240);
+            /* clear: left; */
+            height: 210px;
+            width: 300px;
+            margin-left: 10px;
+            /* float: left; */
+        }
+        figure img{
+            float: left;
+            position: relative;
+            left: 5px;
+            top: 5px;
+            height: 179px;
+            width: 289px;
+            /* clear: right; */
+        }
+        figcaption{
+            /* border: 2   px solid ; */
+            position:relative;
+            top: 10px;
+            left: 5px;
+            text-transform: capitalize;
+            color: gray;
+        }
+        hgroup.a1{
+position: absolute;
+top: 220px;
+right: 555px;
+line-height: 0.3em;
+font-weight: lighter;
+font-size:13px ;
+letter-spacing: 0.1em;
+
+        }
+        h2{
+            color: rgb(138, 136, 136);
+        }
+        h3{
+            color: palevioletred;
+        }   
+        .a27{
+            position: absolute;
+            bottom:255px;
+            width: 300px;
+            line-height: 1.2em;
+            /* right: 50px; */
+            color: rgb(129, 129, 129);
+            left: 540px;
+            
+        }
+        .des{
+            line-height: 1.2em;
+            color: rgb(129, 129, 129);
+            /* border: 2px solid cyan; */
+            width: 300px;
+            position: relative;
+            left: 325px;
+            bottom: 200px;
+        }
+        hgroup.a2{
+            line-height: 0.3em;
+font-weight: lighter;
+font-size:13px ;
+letter-spacing: 0.1em;
+        }
+        aside{
+            /* border: 2px solid olive; */
+            width:310px;
+            height:500px;
+            position: relative;
+            left: 630px;
+            bottom: 485px;
+
+        }
+        .section{
+            /* border: 2px solid orangered; */
+            height: 290px;
+            /* text-align: center; */
+
+        }
+        .section h2{
+            color: palevioletred;
+            margin-left: 20px;
+            margin-top: 30px;
+
+
+        }
+        .section a{
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            padding: 7px;
+            /* margin-bottom: 20px; */
+            line-height: 1.6em;
+            border-bottom: 1px solid rgb(218, 218, 218);
+            color:palevioletred;
+            /* text-align: center; */
+            width: 200px;
+            margin-left: 30px;
+            /* padding-left: 5px; */
+        }
+        .section a:hover{
+            background-color: rgb(214, 212, 212);
+
+        }
+        .contact{
+            /* border: 2px solid yellowgreen; */
+            height: 150px;
+        }
+        .contact hgroup{
+            color: palevioletred;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 26px;
+        }
+        .contact p{
+            margin-left: 20px;
+            margin-top:20px;
+            font-size: 16px;
+            color: gray;
+            
+        }
+        footer{
+            /* border:2px solid blue; */
+            position: relative;
+            bottom: 510px;
+            height:35px ;
+            width: 940px;
+            right: 0px;
+            background-color: rgb(172, 171, 171);
+            clear: left;
+            font-size: 13px;
+
+        }
+        footer p{
+            padding-left: 15px;
+            padding-top: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <header>
+        <div class="logo">
+            <img src="/header.jpg" alt="">
+        </div>
+        <div class="nav">
+            <ul>
+            <li><a href="#" class="active">home</a></li>
+          <li>  <a href="">classes</a></li>
+            <li><a href="">catering</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+        </ul></div>
+    </header>
+    <div class="content">
+        <div class="article">
+            <figure>
+                <img src="/bok-choi.jpg" alt="">
+                <figcaption>
+                    bok-choi
+                </figcaption>
+            </figure>
+                <hgroup class="a1">
+                    <h2>Jepanese Vegetarian</h2>
+                <h3>Five week course in London</h3></hgroup>
+                <p class="a27">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quaerat ab maiores illum autem esse dolore natus numquam odit?</p>
+
+        </div>
+        <div class="article">
+            <figure>
+                <img src="/teriyaki.jpg" alt="">
+                <figcaption>
+                    teriyaki</figcaption>
+                </figure>
+                <div class="des">
+                    <hgroup class="a2">
+                        <h2>Sauces Masterclass</h2>
+                        <h3>One day workshop</h3>
+                    </hgroup>
+                    <p class="a11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reprehenderit, doloribus maiores excepturi exercitationem inventore? Libero?
+
+                    </p></div>
+                
+        </div>
+    </div>
+    <aside>
+        <div class="section">
+            <h2>Popular Recipes</h2>
+            <a href="">Yakitori(grilled chicken)</a>
+            <a href="">Tsukane(minced chicken patties)</a>
+            <a href="">Okonomiyaki(savory pancakes)</a>
+            <a href="">Mizutaki(chicken stew)</a>
+        </div>
+        <div class="contact">
+            <hgroup>Contact</hgroup>
+            <p>
+                Yoko's Kitchen <br>
+                27 Redchurch Street <br>
+                shoreditch <br>
+                London
+            </p>
+        </div>
+    </aside>
+    <footer>
+        <p>
+            &copy;2011 Yoko's Kitchen
+        </p>
+    </footer>
+</div>
+</body>
+</html>
